@@ -1,0 +1,11 @@
+.truncate-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* 限制显示的行数 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .highlighted {
+    background-color: yellow; /* 设置背景高亮颜色 */
+    font-weight: bold; /* 设置文本为粗体 */
+  }

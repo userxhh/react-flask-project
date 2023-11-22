@@ -1,0 +1,39 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .not-found-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .not-found-title {
+    font-size: 36px;
+    margin: 0;
+    color: #ff6347; /* 标题颜色 */
+  }
+  
+  .not-found-text {
+    font-size: 18px;
+    color: #333; /* 文本颜色 */
+    margin-top: 10px;
+  }
+  
+  .not-found-link {
+    display: inline-block;
+    font-size: 16px;
+    color: #1890ff; /* 链接颜色 */
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .not-found-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,40 @@
+/* 进入动画 */
+.catalog-enter {
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 1000ms, transform 1000ms;
+}
+  
+.catalog-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.catalog-enter-done {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* 退出动画 */
+.catalog-exit {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1000ms, transform 1000ms;
+}
+
+.catalog-exit-active {
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+.catalog-exit-done {
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+.code-container {
+    width: 100%; /* 设置代码段容器的宽度，可以根据需要调整 */
+    overflow-x: auto; /* 启用水平滚动条 */
+    white-space: nowrap; /* 防止文本折行 */
+  }
+  
